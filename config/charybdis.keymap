@@ -70,17 +70,18 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,
+                // 编码器1：上下滚动,,
                 <&scroll_horizontal_encoder>;
-  // 编码器2：左右滚动
+
+            // 编码器2：左右滚动
         };
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2            &kp F3            &kp F4            &kp F5            &kp F6             &kp F7            &kp F8      &kp F9            &kp F10            &kp F11           &kp F12
-&kp CAPS        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)         &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)   &kp LG(NUMBER_0)  &none
-&kp LEFT_SHIFT  &none             &none             &none             &kp UP_ARROW      &none              &bt BT_CLR        &none       &kp C_VOLUME_UP   &kp C_VOLUME_DOWN  &none             &none
-&kp LCTRL       &none             &none             &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &bt BT_PRV        &bt BT_NXT  &kp PERIOD        &kp RIGHT_BRACKET  &none             &kp EQUAL
+&kp F1          &kp F2            &kp F3            &kp F4            &kp F5            &kp F6             &kp F7            &kp F8          &kp F9            &kp F10            &kp F11           &kp F12
+&kp CAPS        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)         &kp LG(NUMBER_6)  &kp LG(N7)      &kp LG(NUMBER_8)  &kp LG(NUMBER_9)   &kp LG(NUMBER_0)  &none
+&kp LEFT_SHIFT  &none             &none             &none             &kp UP_ARROW      &none              &bt BT_CLR        &studio_unlock  &kp C_VOLUME_UP   &kp C_VOLUME_DOWN  &none             &none
+&kp LCTRL       &none             &none             &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW    &bt BT_PRV        &bt BT_NXT      &kp PERIOD        &kp RIGHT_BRACKET  &none             &kp EQUAL
                                                     &kp LEFT_ALT      &kp SPACE         &to 0              &none             &none
                                                                       &mkp MB1          &mkp MB2           &kp ENTER
             >;
